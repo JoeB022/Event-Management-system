@@ -106,7 +106,7 @@ function addEventToList(event) {
 
             try {
                 // Send the updated event to the server
-                const response = await fetch(`http://localhost:3000/events/${event.id}`, {
+                const response = await fetch(`https://event-management-system-a15q.onrender.com/events/${event.id}`, {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json'
