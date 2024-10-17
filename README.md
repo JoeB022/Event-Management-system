@@ -12,18 +12,18 @@ The application includes a  landing page showing what i do, my education backgro
 * And you are all done
 
 ## Live server
-* You can view the web live on [Portfolio](https://k-koech.github.io/portfolio-sdft11/)
+* You can view the web live on [Portfolio](https://github.com/JoeB022/Event-Management-system/tree/main/backend)
 
 ## Known Bugs
 The application works perfectly well, no bugs.
 
 ## Technologies Used
-HTML, CSS , Fontawesome icons, GIT
+HTML, CSS , JavaScript, json-server, GIT
 
 ## Support and contact details
-email :: kelvinkipchumba002@gmail.com
+email :: joebrian022@gmail.com
 
 ### License
-*LIcenced under the [MT-licence](https://github.com/k-koech/portfolio-sdft11/blob/master/LICENSE.md)*
+*LIcenced under the [MT-licence](******LICENSE.md)*
 
 Copyright (c) 2024 **Joe Brian**
