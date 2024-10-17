@@ -5,7 +5,7 @@ const eventList = document.getElementById('eventList');
 // Function to fetch events from the server
 async function fetchEvents() {
     try {
-        const response = await fetch('http://localhost:3000/events');
+        const response = await fetch('https://event-management-system-a15q.onrender.com/events');
         const events = await response.json();
         events.forEach(event => addEventToList(event));
     } catch (error) {
@@ -31,7 +31,7 @@ eventForm.addEventListener('submit', async function(event) {
 
     // Send the new event to the server
     try {
-        const response = await fetch('http://localhost:3000/events', {
+        const response = await fetch('https://event-management-system-a15q.onrender.com/events', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -72,7 +72,7 @@ function addEventToList(event) {
         if (confirm(`Are you sure you want to delete the event "${event.name}"?`)) {
             try {
                 // Send DELETE request to the server
-                await fetch(`http://localhost:3000/events/${event.id}`, {
+                await fetch(`https://event-management-system-a15q.onrender.com/events/${event.id}`, {
                     method: 'DELETE'
                 });
                 // Remove the event from the DOM

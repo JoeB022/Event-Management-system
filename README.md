@@ -2,7 +2,7 @@
 #### The app is my Event Management System, 15/10/2024
 #### **By Joe Brian**
 ## Description
-The application includes a  landing page showing what i do, my education background, some of my projects and their links to my github  and my contact information.
+The Event Management System is a web application that allows users to create, read, update, and delete events. It serves as a platform for event organizers to manage their events effectively and for attendees to RSVP and stay informed.
 
 ## Setup/Installation Instruction
 * Download a zip in the code button to the desired folder
